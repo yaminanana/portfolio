@@ -1,7 +1,7 @@
 window.onscroll = function (){
     if(document.documentElement.scrollTop > 300){
-        document.getElementById("navbar").style.backgroundColor = "#636580";
-        document.querySelector("li a ").style.color = "white";
+        document.getElementById("navbar").style.backgroundColor = "#737599";
+       // document.querySelector("li a ").style.color = "white";
         document.getElementById("navbar").style.padding = "30px 10px";
 
     }else{

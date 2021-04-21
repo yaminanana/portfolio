@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #CECCCC;
+    background-color: #f2f0f0;
 }
 
 /*Header*/
@@ -37,6 +37,7 @@ header {
     background-color: #f1f1f1;
     box-shadow: 0px 3px 1px -1px rgba(0, 0, 0, 0.5);
     transition: 0.4s;
+    
 }
 
 /*.link i {
@@ -52,32 +53,7 @@ header {
     background-color: transparent;
 }*/
 
-.github {
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    left: 100px;
-    top: 5px;
-}
-.github:hover{
-    background-color: transparent;
-    transition: 0.6s;
-    transform: scale(1.2);
-}
 
-
-.linkedin {
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    left: 50px;
-    top: 5px;
-}
-.linkedin:hover{
-    background-color: transparent;
-    transition: 0.6s;
-    transform: scale(1.2);
-}
 
 h1 {
     font-family: 'Lobster', cursive;
@@ -113,6 +89,7 @@ h2 {
 a {
     text-decoration: none;
     color: black;
+    
 }
 
 ul {
@@ -128,6 +105,7 @@ li {
     list-style-type: none;
     display: inline;
     margin: 10px;
+    
 }
 
 /*A propos*/
@@ -178,7 +156,7 @@ li {
     padding: 20px;
     margin-bottom: 30px;
     position: relative;
-    background-color: #9da39a1a;
+    background-color: #f2f0f0;
   
 }
 
@@ -314,6 +292,7 @@ h3 {
     
     display: flex;
     position: relative;
+    top: 15px;
     left: 520px;
     line-height: 20px;
     margin: 0;
@@ -400,11 +379,38 @@ input {
 footer {
     display: flex;
     font-weight: bold;
-    background-color: #636580;
+    background-color: #737599;
     color: white;
     padding: 15px;
-    height: 80px;
+    height: 150px;
     position: relative;
+}
+
+.github {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 650px;
+    top: 65px;
+}
+.github:hover{
+    background-color: transparent;
+    transition: 0.6s;
+    transform: scale(1.2);
+}
+
+
+.linkedin {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 750px;
+    top: 65px;
+}
+.linkedin:hover{
+    background-color: transparent;
+    transition: 0.6s;
+    transform: scale(1.2);
 }
 
 /*responsive*/
