@@ -12,6 +12,8 @@
                 emailjs.init("user_qMDlnh3n90rOyc4fXhRIN");
             })();
         </script>
+  
+    
         <link rel="stylesheet" type="text/css" href="index.css">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -220,8 +222,9 @@
             </div>
             <div id="contenercontact">
 
-                <form method="post">
+                <form id="contact-form" action="" method="post">
                     <div>
+                    <input type="hidden" name="contact_number">
                         <label for="name"></label>
                         <input type="text" id="name" name="user_name" placeholder="Nom" required />
                         <div>
