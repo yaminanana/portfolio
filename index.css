@@ -5,8 +5,8 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f2f0f0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #f9f9f9;
 }
 
 /*Header*/
@@ -14,44 +14,27 @@ body {
 header {
     display: flex;
     text-align: center;
-    background-color: #6F8AB7;
+    background-color: #F9F9F9;
     height: 100vh;
-    color: white;
+    color: #EFB685;
     
-    /* padding-bottom: 30px;*/
+    
 }
-
-
-/*.gradient {
-    background-image: radial-gradient( circle at 0 0, #d1d9db, #c8cfd1, #d1d9db, #f3d0dc, #f5f5f5, #d1d9db, #c8cfd1, #d1d9db, #c8cfd1, #f3d0dc, #f1f1f1);
-}*/
 
 #navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     position: fixed;
     z-index: 2;
     width: 100%;
     padding: 15px 10px;
     font-size: 1.1em;
-    background-color: #f1f1f1;
-    box-shadow: 0px 3px 1px -1px rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+    box-shadow: 0px 2px 1px -1px rgba(245, 176, 73, 0.699);
     transition: 0.4s;
     
 }
 
-/*.link i {
-    margin-top: 15px;
-    margin-left: 15px;
-    background-color: transparent;
-   
-}
-.link i:hover {
-    transform: scale(1.5);
-    color: black;
-    transition: 0.6s;
-    background-color: transparent;
-}*/
 
 
 
@@ -63,7 +46,7 @@ h1 {
 }
 
 .separator {
-    width: 60px;
+    width: 260px;
     height: 2px;
     margin: 15px auto;
     display: block;
@@ -75,6 +58,7 @@ h2 {
     font-size: 28px;
     width: 400px;
     margin: auto;
+    color: #444;
 }
 
 #nom {
@@ -92,6 +76,10 @@ a {
     
 }
 
+a:hover {
+    color: #EFB685;
+}
+
 ul {
     padding: 0;
     display: inline;
@@ -99,6 +87,7 @@ ul {
 
 li:hover {
     font-weight: bold;
+   
 }
 
 li {
@@ -134,13 +123,13 @@ li {
     width: 200px;
     text-align: center;
     position: absolute;
-    left: 550px;
+    left: 510px;
     top: 255px;
     background-color: transparent;
     border-radius: 2px;
 }
 .telechargement:hover{
-    background-color: #999999;
+    background-color: #EFB685;
     color: white;
     font-weight: bold;
 }
@@ -236,17 +225,7 @@ h6{
     margin: 0 auto;
     position: relative;
 }
-hr {
-    height: 4px;
-    width: 80px;
-    text-align: center;
-    position: relative;
-    /*left: 640px;*/
-    background-color: #999999;
-    margin: 10px auto;
-    margin-bottom: 30px;
-    
-}
+
 .projet {
     margin: 30px;
     width: 300px;
@@ -291,10 +270,8 @@ hr {
 h3 {
     
     display: flex;
+    justify-content: center;
     position: relative;
-    top: 15px;
-    left: 520px;
-    line-height: 20px;
     margin: 0;
     color: #444;
     font-weight: 400;
@@ -302,11 +279,6 @@ h3 {
     font-size: 34px;
     text-transform: uppercase;
 }
- #apropos h3 {
-    display: flex;
-    position: relative;
-    left: 560px;
- }
 
 /*Contact*/
 
