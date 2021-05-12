@@ -349,40 +349,40 @@ input {
 /*footer*/
 
 footer {
-    display: flex;
+    display: block;
+    justify-content: center;
     font-weight: bold;
-    background-color: #737599;
-    color: white;
+    background-color: #444;
+    color: black;
     padding: 15px;
-    height: 150px;
+    height: 100px;
     position: relative;
+    
 }
-
+footer span {
+    position: relative;
+    top:50px;
+    left: 420px;
+}
 .github {
-    height: 40px;
-    width: 40px;
+    
     position: absolute;
-    left: 650px;
-    top: 65px;
+    left: 150px;
+    top: 25px;
 }
-.github:hover{
-    background-color: transparent;
-    transition: 0.6s;
-    transform: scale(1.2);
-}
-
 
 .linkedin {
-    height: 40px;
-    width: 40px;
+    
     position: absolute;
-    left: 750px;
-    top: 65px;
+    left: 70px;
+    top: 30px;
 }
-.linkedin:hover{
-    background-color: transparent;
-    transition: 0.6s;
-    transform: scale(1.2);
+
+
+#chevron {
+    position: absolute;
+    top: 35px;
+    left: 1000px;
 }
 
 /*responsive*/
