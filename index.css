@@ -97,6 +97,25 @@ li {
     
 }
 
+.burger-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+}
+
+.burger-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+
 /*A propos*/
 
 #contenerapropos {
@@ -191,6 +210,7 @@ h6{
 }
 #compItem{
     text-align: center;
+    padding: 15px;
 }
 
 #box2 li {
@@ -376,6 +396,23 @@ footer span {
 /*responsive*/
 
 @media all and (max-width: 1000px) {
+
+    .burger-button {
+        display: flex;
+    }
+    .lienmenu {
+        display: none;
+        width: 100%;
+    }
+
+    .lienmenu.active {
+        display: flex;
+    }
+    #navbar{
+        position: relative;
+        
+    }
+
     .projet {
         width: 100%;
         margin: 15px auto;
