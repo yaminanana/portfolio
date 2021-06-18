@@ -68,7 +68,7 @@ h2 {
     width: 60%;
     margin: auto;
     padding: 10px;
-    border: 5px solid rgb(240, 194, 152);
+    border: 2px solid rgb(240, 194, 152);
 }
 
 a {
@@ -253,17 +253,20 @@ h6{
 }
 
 .projet img {
-    /* min-width: 400px;*/
-    height: 266px;
+    width: 300px;
+    height: 250px;
+    
 }
 
 .projet span {
     text-transform: uppercase;
     display: block;
+    text-align: center;
 }
 
 .projet .date-project {
     font-size: 0.7em;
+    text-align: center;
 }
 
 .images {
@@ -271,10 +274,14 @@ h6{
     height: 266px;
     overflow: hidden;
     margin-bottom: 15px;
+    
 }
-#image-projet img {
+
+
+/*#image-projet img {
     width: 90%;
-}
+   
+}*/
 /*Tous les H3*/
 
 h3 {
@@ -310,9 +317,8 @@ p {
     margin: 0 0 50px 0;
     transition: all .4s ease-in-out;
     
+    
 }
-
-
 
 form {
     margin: auto;
@@ -322,38 +328,62 @@ form {
 
 #msg {
     height: 200px;
-    width: 800px;
+    width: 600px;
     margin: 3px;
-    padding: 8px 15px;
-    border-radius: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    border-radius: 20px;
     
 }
 
 .btn {
-    padding: 8px 15px;
-    margin: 3px;
     font-size: 16px;
-    width: 800px;
+    width: 200px;
+    height: 42px;
     text-align: center;
     background-color: transparent;
-    border-radius: 5px;
+    border-radius: 20px;
     border: 1px solid #999999;
     cursor: pointer;
-    
 }
 
 .btn:hover {
     background-color: #999999;
     color: white;
     font-weight: bold;
+    
+}
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
 }
 
 input {
     margin: 3px;
-    width: 800px;
+    width: 600px;
     padding: 8px 15px;
-    border-radius: 5px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    height: 42px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+textarea {
+    outline: none;
+    border: none;
     
+}
+
+textarea:focus, input:focus {
+    border-color: transparent !important;
+  }
+
+::-webkit-input-placeholder{
+    padding-left: 15px;
+    padding-top: 5px;
 }
 
 /*fichier projet.html*/
