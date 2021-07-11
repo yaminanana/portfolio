@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <title>Mon portfolio</title>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
         </script>
@@ -30,11 +30,11 @@
         <nav id="navbar">
             
             <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="#apropos">À propos</a></li>
-                <li><a href="#competences">Compétences</a></li>
-                <li><a href="#realisation">Réalisations</a></li>
-                <li><a href="#contact"> Contact</a></li>
+                <li><a href="index.html" class="navMenu">Accueil</a></li>
+                <li><a href="#apropos" class="navMenu">À propos</a></li>
+                <li><a href="#competences" class="navMenu">Compétences</a></li>
+                <li><a href="#realisation" class="navMenu">Réalisations</a></li>
+                <li><a href="#contact" class="navMenu"> Contact</a></li>
             </ul>
        </nav>
 
@@ -52,7 +52,7 @@
             <h1>Amour Yamina</h1>
             <span class="separator"></span>
             <h2>Développeuse web/web mobile</h2>
-            <h2>Bienvenue sur mon portfolio !</h2>
+            
 
         </div>
 
@@ -86,9 +86,12 @@
                         une équipe dynamique et bienveillante.
                     </p>
 
-                    <a href="images/CV Développeur.pdf" download="Mon CV" class="telechargement">Mon CV</a>
+                    <a href="images/CV Développeur.pdf" download="Mon CV" class="telechargement">Télécharger mon cv</a>
+                    
                 </div>
-
+                <div id="reseaux">
+                    <a href="https://www.linkedin.com/in/yamina-amour-978a101b1/">Linkedin</a>&nbsp&nbsp<a href="https://github.com/yaminanana">Github</a>
+                </div>
 
             </div>
         </section>
@@ -99,6 +102,7 @@
                 <h3>Compétences</h3>
                 
             </div>
+            
           
             <div id="box1">
             <h6>Compétences</h6>
@@ -144,62 +148,70 @@
                 <h3>Réalisations</h3>
                 
             </div>
+
+            </div>
             <!--conteneur-->
             <div id="contenerprojets">
                 <!--je crée mon projet 1-->
                 <div class="projet">
-                    <a href="projet.html">
+                    
                         <div class="images">
+                        <a href="http://amouryamina.com/">
                             <img src="images/portfolio.png" alt="mon premier projet" />
+                            </a>
                         </div>
                         <span>Mon portfolio</span>
-                        <span class="date-project">11/08/2020</span>
+                        <span class="date-project">11/05/2021</span>
                     </a>
 
                 </div>
                 <!--je crée mon projet 2-->
                 <div class="projet">
-                    <a href="projet.html">
+                    
                         <div class="images">
-                            <img src="images/nucleotic.png" alt="mon premier projet" />
+                        <a href= "https://selectionfilm.netlify.app/">
+                            <img src="images/selectionFilm.png" alt="mon premier projet"  />
+                          </a>  
                         </div>
-                        <span>Site Nucléotic</span>
-                        <span class="date-project">11/08/2020</span>
+                        <span>Plateforme de sélection de film</span>
+                        <span class="date-project">01/06/2021</span>
                     </a>
 
                 </div>
 
                 <!--je crée mon projet 3-->
                 <div class="projet">
-                    <a href="projet.html">
+                    
                         <div class="images">
-                            <img src="images/illustration_3.jpg" alt="mon premier projet" />
+                        <a href="https://manettenes.netlify.app/" >
+                            <img src="images/manette.png" alt="mon premier projet" />
+                            </a>
                         </div>
                         <span>Manette Ness</span>
-                        <span class="date-project">11/08/2020</span>
+                        <span class="date-project">11/11/2020</span>
                     </a>
 
                 </div>
 
                 <!--je crée mon projet 4-->
                 <div class="projet">
-                    <a href="projet.html">
-                        <div class="images">
-                            <img src="images/illustration_4.jpg" alt="mon premier projet" />
+                    
+                       <div class="images">
+                            <img src="images/shoplocal.png" alt="mon premier projet" />
                         </div>
-                        <span>Mon Portfolio</span>
-                        <span class="date-project">11/08/2020</span>
+                        <span>Shoplocal</span>
+                        <span class="date-project">01/01/2021</span>
                     </a>
 
                 </div>
 
                 <!--je crée mon projet 5-->
                 <div class="projet">
-                    <a href="projet.html">
+                    
                         <div class="images">
                             <img src="images/illustration_5.jpg" alt="mon premier projet" />
                         </div>
-                        <span>Deuxième évaluation</span>
+                        <span>Autre projet</span>
                         <span class="date-project">11/08/2020</span>
                     </a>
 
@@ -207,7 +219,7 @@
 
                 <!--je crée mon projet 6-->
                 <div class="projet">
-                    <a href="projet.html">
+                    
                         <div class="images">
                             <img src="images/illustration_6.jpg" alt="mon premier projet" />
                         </div>
@@ -251,35 +263,17 @@
                 </form>
 
             </div>
-            <div>
-            <ul>
-            <li><a href="https://www.linkedin.com/in/yamina-amour-978a101b1/">Linkedin</a></li>
-            <li><a href="https://github.com/yaminanana">Github</a></li>
-            </ul>
+            <div id="reseauxContact">
+            <h5>Mes réseaux : </h5>
+            <a href="https://www.linkedin.com/in/yamina-amour-978a101b1/">Linkedin</a>
+            <a href="https://github.com/yaminanana">Github</a>
+            
             </div>
 
         </section>
     </article>
 
-    <footer>
-    <div class="link">
-                <div>
-                  <a href="https://github.com/yaminanana" target="_blank" class="github"><i class="fa fa-github-square fa-3x"></i>
-                       <!-- <img class="github" src="images/github_icon-icons.com_69253.png"></a>-->
-
-                </div>
-                <div>
-                <a href="https://www.linkedin.com/in/yamina-amour-978a101b1/" target="_blank" class="linkedin"><i class="fa fa-linkedin fa-2x"></i><!--<img
-                        class="linkedin" src="images/linkedin.png"></a>-->
-            </div>
-        
-        <div>
-        <a href="index.html" id="chevron"><i class="fa fa-chevron-up"></i></a>
-</div>
-</div>
-<span>2020 &copy; | Tout droit réservé | Amour Yamina </span>
-    </footer>
-
+   
     <script src="script.js"></script>
 </body>
 
