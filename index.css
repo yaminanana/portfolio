@@ -189,8 +189,8 @@ h3 {
 }
 #competences h3 {
   position: absolute;
-  top: 1420px;
-  left: 500px;
+  top: 1100px;
+  left: 350px;
 }
 .scroll-panel1 {
   padding-top: 150px;
@@ -237,11 +237,12 @@ h6 {
 #compItem {
   text-align: center;
   padding: 15px;
+  font-size: calc(25 * var(--res));
 }
 
 #box2 li {
   line-height: 2;
-  font-size: 1rem;
+  font-size: calc(26 * var(--res));
   font-weight: 400;
 }
 /*Projet*/
